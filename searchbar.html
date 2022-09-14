@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>search bar</title>
+
+</head>
+<body>
+  <div id="contai">
+    <h1>Click on the button to open the dropdown menu of the cityes, and use the input field to search for a specific
+      city.</h1>
+    <input id="inp" value="" placeholder="enter city name..." type="text"></input>
+    <button id="aref12">click to save City Name </button>
+    <h2>List Of All Cityes</h2>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn" id="btn1">Citys List</button>
+      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()"></input>
+      <div id="myDropdown" class="dropdown-content">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="java.js"></script>
+</body>
+</html>
